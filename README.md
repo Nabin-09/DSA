@@ -1,2 +1,3 @@
 <h1>THIS IS MY DSA REPO</h1>
-#[MY LEETCODE PROFILE](https://leetcode.com/nabin_09/)
+<a href="https://leetcode.com/nabin_09/">My Leetcode Profile</a>
+
