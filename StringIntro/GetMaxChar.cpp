@@ -16,7 +16,7 @@ for(int i = 0 ;i<s.length() ; i++){
 }
  int ans = 0;
  for(int i = 0; i<26 ; i++){
-    int maxi=-1;
+    int maxi=-1,ans=0;
    
     if(maxi < arr[i]){
         ans = i;
