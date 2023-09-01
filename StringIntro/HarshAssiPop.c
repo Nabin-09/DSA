@@ -29,19 +29,12 @@ int pop() {
 
 void print_distinct_elements() {
   int i, j;
+  int seen[MAX_STACK_SIZE] = {0};
 
   for (i = 0; i <= top; i++) {
-    int flag = 0;
-
-    for (j = 0; j < i; j++) {
-      if (stack[i] == stack[j]) {
-        flag = 1;
-        break;
-      }
-    }
-
-    if (flag == 0) {
-      printf("%d ", stack[i]);
+    if (seen[stack[i]] == 0) {
+      printf("%d    ", stack[i]);
+      seen[stack[i]] = 1;
     }
   }
 
@@ -52,7 +45,7 @@ void print_stack() {
   int i;
 
   for (i = top; i >= 0; i--) {
-    printf("%d ", stack[i]);
+    printf("%d    ", stack[i]);
   }
 
   printf("\n");
@@ -69,11 +62,13 @@ int main() {
     scanf("%d", &data);
     push(data);
   }
-
+  printf("The Distinct Elements of stack are: \n");
   print_distinct_elements();
 
-  printf("The original stack is: ");
-  print_stack();
+  printf("The original stack is: \n");
+  while (top != -1) {
+    printf("%d    ", pop());
+  }
 
   return 0;
 }
