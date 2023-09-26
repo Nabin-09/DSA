@@ -23,5 +23,16 @@ int main(){
     Address of p : 0x61ff04
     Value of q : 5
     Address of q : 0x61ff04*/
+    /*POINTER arithmetic: IMPORTANT CONCEPT */
+   int m=9;
+   int *t=&m;
+   cout<<(*t)++<<endl;
+   cout<<++(*t)<<endl;
+  *t=*t+1;
+   cout<<*t<<endl;
+   /*OUTPUT: 
+    9
+    11
+    12*/
     return 0;   
 }
