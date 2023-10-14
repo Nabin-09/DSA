@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "7_StackArray.C": "cpp",
+        "5_GCD.C": "cpp",
+        "6_Stack.C": "cpp",
+        "tempCodeRunnerFile.C": "cpp",
+        "8_SinglyLinkedList.C": "cpp",
+        "7_QueueArray.C": "cpp",
+        "9_DoublyLinkedList.C": "cpp",
+        "10_CicularQueues.C": "cpp",
+        "11_StackLL.C": "cpp",
+        "12_QueueLL.C": "cpp",
+        "13_PolynomialsLL.C": "cpp",
+        "14_LinearSearch.C": "cpp",
+        "15_BinarySearch.C": "cpp",
+        "16_BubbleSort.C": "cpp",
+        "17_InsertionSort.C": "cpp",
+        "18_BinarySearch.C": "cpp",
+        "BinarySearchTree.C": "cpp",
+        "18_BinarySearchTree.C": "cpp",
+        "19_LLsearch.C": "cpp",
+        "20_InfixToPostfix.C": "cpp"
+    }
+}
