@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_SIZE 100
+#define MAX_SIZE 1001
 
 int queue[MAX_SIZE];
 int front = -1, rear = -1;

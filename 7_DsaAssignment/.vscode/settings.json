@@ -19,6 +19,10 @@
         "BinarySearchTree.C": "cpp",
         "18_BinarySearchTree.C": "cpp",
         "19_LLsearch.C": "cpp",
-        "20_InfixToPostfix.C": "cpp"
+        "20_InfixToPostfix.C": "cpp",
+        "1_AverageMarks.C": "cpp",
+        "2_MatrixAddition.C": "cpp",
+        "3_MatrixMultiplication.C": "cpp",
+        "4_Recursion.C": "cpp"
     }
 }

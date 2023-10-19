@@ -1,3 +1,4 @@
+//IMPLEMENTATION OF STACK USING LINKED LISTS
 #include <stdio.h>
 #include <stdlib.h>
 

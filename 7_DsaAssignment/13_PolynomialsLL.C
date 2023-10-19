@@ -1,3 +1,4 @@
+//PROGRAM TO ADD TWO POLYNOMIALS USING LINKED LISTS
 #include <stdio.h>
 #include <stdlib.h>
 

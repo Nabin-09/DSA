@@ -1,4 +1,6 @@
-#include <stdio.h>
+//write a program to implement binary search
+
+ #include <stdio.h>
 
 int binarySearch(int arr[], int left, int right, int target) {
     while (left <= right) {

@@ -1,3 +1,5 @@
+//Write a program to imlement  binary search tree
+
 #include <stdio.h>
 #include <stdlib.h>
 
